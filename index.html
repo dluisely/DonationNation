@@ -2,20 +2,25 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Donation Nation</title>
   </head>
   <body>
+
     <!-- Start of Navigation Bar-->
     <nav>
       <table>
         <tr>
-          <td class="nav_buttons">Home</td>
-          <td class="nav_buttons">About</td>
-          <td class="nav_buttons">Contact</td>
+          <td id="home_button">Home</td>
+          <td id="about_button">About</td>
+          <td id="contact_button">Contact</td>
         </tr>
       </table>
     </nav>
+
     <!-- Start of Site's Name Container-->
     <div class="name_container">
       <p id="name">Donation Nation</p>
@@ -26,17 +31,32 @@
       <label id="zip_search">Enter Your Zip Code:</label>
       <input type="text" id="zip" name="zip">
     </div>
+
     <!-- Start of About Container-->
     <div id="about_container">
-
+      <table id="about_table">
+        <tr>
+          <td class="about_column">
+            <h2>MISSION</h2>
+          </td>
+          <td class="about_column">
+            <h2>VOLUNTEER</h2>
+          </td>
+          <td class="about_column">
+            <h2>CONTRIBUTE</h2>
+          </td>
+        </tr>
+      </table>
     </div>
+
     <!-- Start of Contact Container-->
     <div id="contact_container">
 
     </div>
+
     <!-- Start of Footer-->
     <footer>
-      
+
     </footer>
   </body>
 </html>
