@@ -13,7 +13,7 @@ nav{
   height: 35px;
   background-color: white;
   border-bottom: solid #00b36b 6px;
-  box-shadow: 10px 10px 50px #333333;
+  box-shadow: 0px 0px 40px #333333;
   padding: 5px;
 }
 
@@ -30,7 +30,7 @@ nav{
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 20px #333333;
+  text-shadow: 2px 2px 7px #333333;
   font-family: "Satisfy", cursive;
   font-size: 90px;
 }
@@ -40,6 +40,7 @@ nav{
   height: 500px;
   width: 1000px;
   position: absolute;
+  border-radius: 5px;
   margin-top: 400px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,8 +48,8 @@ nav{
   text-align: center;
   font-size: 15px;
   font-family:sans-serif;
-  box-shadow: 10px 10px 50px #333333;
-  text-shadow: 2px 2px #333333;
+  box-shadow: inset 0 0 20px #000000;
+  text-shadow: 2px 2px 5px #333333;
 }
 
 #zip_search {
@@ -59,22 +60,45 @@ nav{
 
 #about_container {
   height: 500px;
-  background-color: white;
   margin-top: 750px;
   margin-bottom: 200px;
-  box-shadow: 10px 10px 50px #333333;
 }
 
-#about_table {
+#about_table_title {
   width: 100%;
-  height: 100%;
+  height: 25%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin-top: 10px;
 }
 
-.about_column {
+.about_title {
   width: 33.33%;
   background-color: #00b36b;
-  border-radius: 20px;
-  padding: 100px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 25%;
+}
+
+#about_table_description {
+  width: 100%;
+  height: 78%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin-top: -20px;
+}
+
+.about_description {
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+#about_container td {
+  box-shadow: 0px 0px 10px #333333;
 }
 
 h2 {
@@ -82,5 +106,18 @@ h2 {
   font-size: 30px;
   font-family: "Oswald";
   text-align: center;
-  text-shadow: 1px 1px 2px #333333;
+  text-shadow: 1px 1px 5px #333333;
+}
+
+#contact_container {
+  height: 600px;
+  margin-top: -100px;
+  margin-bottom: 150px;
+  box-shadow: inset 0px 0px 100px #333333;
+}
+
+footer {
+  background-color: #00b36b;
+  height: 200px;
+  box-shadow: inset 0px 0px 10px #333333;
 }
