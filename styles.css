@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+  url('https://www.themississaugafoodbank.org/wp-content/uploads/2017/06/hero-image@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+nav{
+  height: 35px;
+  background-color: white;
+  border-bottom: solid #00b36b 6px;
+  box-shadow: 10px 10px 50px #333333;
+  padding: 5px;
+}
+
+.nav_buttons {
+
+}
+
+.name_container {
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-top: 20px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 20px #333333;
+  font-family: "Satisfy", cursive;
+  font-size: 90px;
+}
+
+#search_container {
+  background-color: #00b36b;
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  margin-top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family:sans-serif;
+  box-shadow: 10px 10px 50px #333333;
+  text-shadow: 2px 2px #333333;
+}
+
+#zip_search {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#about_container {
+  height: 500px;
+  background-color: white;
+  margin-top: 750px;
+  margin-bottom: 200px;
+  box-shadow: 10px 10px 50px #333333;
+}
