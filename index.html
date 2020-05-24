@@ -34,6 +34,18 @@
       <h1>Search for Places to Donate!</h1>
       <label id="zip_search">Enter Your Zip Code:</label>
       <input type="text" id="zip" name="zip">
+      <div id="map"></div>
+      <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async defer></script>
     </div>
 
 
@@ -70,7 +82,23 @@
 
     <!-- Start of Contact Container-->
     <div id="contact_container">
-
+      <table id="contact_table">
+        <tr id="question_title">
+          <td>
+            Got a question?
+          </td>
+        </tr>
+        <tr  id="support_title">
+          <td>
+            CONTACT OUR SUPPORT TEAM
+          </td>
+        </tr>
+        <tr id="contact_form">
+          <td>
+            Got a question?
+          </td>
+        </tr>
+      </table>
     </div>
 
 
@@ -79,6 +107,6 @@
 
     </footer>
 
-    
+
   </body>
 </html>
